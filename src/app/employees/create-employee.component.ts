@@ -2,7 +2,7 @@ import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Department } from '../models/department.model';
 import { Employee } from '../models/employee.model';
-
+/*
 @Component({
   selector: 'app-create-employee',
   templateUrl: './create-employee.component.html',
@@ -15,6 +15,7 @@ export class CreateEmployeeComponent implements OnInit {
   employee: Employee = {
 
   };
+}
 
   departments: Department[] = [
     { id: 1, name: 'Help Desk'},
@@ -49,4 +50,4 @@ export class CreateEmployeeComponent implements OnInit {
     console.log(employeeForm);
   }
 
-}
+*/
